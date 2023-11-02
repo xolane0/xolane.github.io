@@ -1,0 +1,108 @@
+body{
+background-image: url(constuction.jpg);
+color:white;
+font.size=0.7em;
+background-image:center;
+}
+h1{
+color:white;
+font-family:Georgia:
+font-size:40px;
+text-align:center;
+text-decoration:underline;
+
+}
+ h2{
+          color: white;
+          font-family:Geogia;
+          font-size:40px;
+          Text-align:center;
+          text-decoration:underline;
+        }
+.logo img{
+          float: left;
+          width: 150px;
+          height: auto;
+}
+
+
+        p{
+         font-family:curtive;
+         font-size:large;
+          color:white;
+        }
+        ul{
+            font-size: large;
+        }
+        al{
+            font-size: large;
+        }
+    
+a:link, a:visited{
+  text-decoration: none;
+  background:orange;
+  color: white;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 8px 15px;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+
+}
+a:hover, a:active {
+  background-color: red;
+  color: white;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.pin {
+  width: 50px ;
+  height: 50px ;
+  background-color: green ;
+  border-radius: 60px 60px 0px 60px ;
+  position:relative ;
+  transform: rotate(45deg);
+}
+.pin::after {
+  content: "" ;
+  width: 30px ;
+  height: 30px ;
+  background: white ;
+  position: absolute ;
+  left: 20% ;
+  top: 20% ;
+  border-radius: 60px ;
+}
+
+/* CSS for footer */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: green;
+  padding: 40px 80px;
+}
+
+.footer .copy {
+  color: #fff;
+}
+.container {
+ 
+  border-radius: 5px;
+  background-color: none;
+  padding: 20px;
+  border-bottom: 2px solid none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
